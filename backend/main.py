@@ -1,19 +1,3 @@
-"""
-TraceMind CLI.
-
-Week 2 deliverable: a full Supervisor -> Metrics/Log -> Synthesis run that
-produces a correct report end-to-end with zero external dependencies.
-
-Week 3 adds: set GEMINI_API_KEY (see synthesis_agent.py) and the same
-command uses live LLM synthesis instead of the template — no code changes
-needed here.
-
-Usage:
-    python main.py                          # random scenario
-    python main.py --scenario memory-leak-checkout
-    python main.py --list                   # show available scenarios
-"""
-
 import argparse
 import asyncio
 import random
