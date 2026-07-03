@@ -1,6 +1,0 @@
-# TraceMind — backend dependencies
-python-dotenv>=1.0.0      # load GEMINI_API_KEY from .env
-rich>=13.7.0                # pretty CLI trace output (Week 2)
-google-genai>=1.0.0        # optional: real LLM synthesis via Gemini (Week 3)
-fastapi>=0.115.0            # live backend API for the frontend (Week 4)
-uvicorn[standard]>=0.30.0   # ASGI server to run the FastAPI app (Week 4)
