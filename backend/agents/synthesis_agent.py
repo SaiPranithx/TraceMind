@@ -1,13 +1,3 @@
-"""
-Synthesis Agent.
-
-Week 2: pure template — combine MetricsFinding + LogFinding into a markdown
-report with zero API calls, so the pipeline is fully testable offline.
-
-Week 3: if GEMINI_API_KEY is set, ask Gemini to write the same sections
-instead, using the two structured findings as its only input (no raw logs,
-no raw time series — keeps the prompt small and grounded).
-"""
 
 import os
 
